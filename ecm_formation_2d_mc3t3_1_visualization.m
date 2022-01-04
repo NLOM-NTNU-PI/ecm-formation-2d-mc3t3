@@ -21,7 +21,7 @@ if any(n==na)
     imshow(img,[])
 elseif any(n==nb)
     img = data{n,1}{4,1}; 
-    imshow(img,[])git 
+    imshow(img,[]) 
 elseif any(n==nc)
     stack = data{n,1}(:,1);  
     img_stack = stack(4:4:end,1);
